@@ -6,4 +6,5 @@ def sumar(x):
     return contador
 
 sumar(5)
-print(contador)   # Serà 0 no es modifica de la manera esperada
+
+print(contador)   # Result won't modify global variable
